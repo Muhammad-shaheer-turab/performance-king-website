@@ -45,7 +45,7 @@ p, li { max-width: 68ch; }
 .warn h2 { margin-top: 0; }
 .shots { display: flex; gap: 16px; overflow-x: auto; padding-block: 8px 20px; scroll-snap-type: x mandatory; }
 .shots img { flex: 0 0 auto; width: min(240px, 70vw); border-radius: 16px; border: 1px solid var(--line); scroll-snap-align: start; }
-main.doc ul { padding-left: 1.2em; }
+main.doc ul, main.doc ol { padding-left: 1.2em; }
 main.doc li { margin-block: 0.35em; }
 .note { color: var(--muted); font-size: 15px; border-left: 3px solid var(--line); padding-left: 14px; }
 details { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-block: 10px; }
